@@ -13,4 +13,3 @@ test('show level if status is ok', () => {
   getLevel(1);
   expect(fetchData).toBeCalledWith('https://server/user/1');
 });
-
